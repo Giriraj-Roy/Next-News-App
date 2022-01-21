@@ -1,23 +1,9 @@
-import NewsList from "../components/NewsList"
+import NewsList from "../components/NewsList";
 
 function Newslist({data}) {
     return <>
         <h1>Todays News</h1>
         <NewsList articles={data.articles} />
-        {/* {
-            data.articles.map(
-                ele => {
-                    return(
-                        <ul key={ele.source.id}>
-                            <li>{ele.title}</li>
-                            
-                            <p>{ele.description}</p>
-                            <br/>
-                        </ul>
-                    )
-                }
-            )
-        } */}
     </>
 }
 

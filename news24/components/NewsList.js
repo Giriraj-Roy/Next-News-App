@@ -1,6 +1,6 @@
-function Newslist({articles}){
+function NewsList({articles}){
     return <>
-        {   
+        {
             articles.map(
                 ele => {
                     return(
@@ -16,4 +16,4 @@ function Newslist({articles}){
         }
     </>
 }
-export default Newslist
+export default NewsList
