@@ -2,7 +2,6 @@ import NewsList from "../components/NewsList";
 
 function Newslist({data}) {
     return <>
-        <h1>Todays News</h1>
         <NewsList articles={data.articles} />
     </>
 }

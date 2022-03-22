@@ -1,15 +1,11 @@
 import Link from 'next/link'
+import Navbar from '../components/Navbar'
 
 function Home() {
   return <>
-    <div className='Heading'>
-      <div className='navbar'>
-        <div>Home</div>
-        <div>Careers</div>
-        <div>About</div>
-        <div>Contact</div>
+    <div className=''>
+      <Navbar/>
       </div>
-      <h1>Saber Daily</h1></div>
     <br/>
     <Link href="/news">
       <a> <button>Latest News </button></a>

@@ -14,10 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.nav{
+  display: flex;
+  position: relative;
+  top: 2.5rem;
+  height: fit-content;
+  font-size: 1.5rem;
+
+}
 .Heading{
   display: flex;
   justify-content: center;
-  font-size: 1.5vw;
+  font-size: 2.5rem;
   font-style: italic;
 
 }
