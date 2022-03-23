@@ -4,7 +4,7 @@ function weather({data}){
     return<>
         {
             // data.coord.lon
-            <WeatherMap data={data.coord}/>
+            <WeatherMap main={data.main}/>
         }
         <hr/>
     </>
@@ -19,7 +19,7 @@ export async function getStaticProps(){
 
     return {
         props : {
-            data : result,
+            data: result,
         },
     }
 }

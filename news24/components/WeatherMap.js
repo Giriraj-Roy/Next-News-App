@@ -1,7 +1,7 @@
-function WeatherMap({data}){
+function WeatherMap({main}){
     return<>
         {
-            data.map(
+            main.map(
                 ele => {
                     return(
                         ele
