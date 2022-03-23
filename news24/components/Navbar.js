@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Weather from "../pages/Weather"
+import Weather from "../pages/weather"
 
 function Navbar(){
     return <>

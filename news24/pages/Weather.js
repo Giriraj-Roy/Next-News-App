@@ -1,22 +1,16 @@
-function Weather({data}){
+import WeatherMap from "../components/WeatherMap";
+
+function weather({data}){
     return<>
         {
-            // console.log(data)
-            // data.map(
-            //     ele => {
-            //         return(
-            //             <>
-            //                 {ele.main}
-            //             </>
-            //         )
-            //     }
-            // )
+            // data.coord.lon
+            <WeatherMap data={data.coord}/>
         }
         <hr/>
     </>
 }
 
-export default Weather
+export default weather
 
 export async function getStaticProps(){
     const response = await fetch("https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=df1fc24f8c46979b57132607828583aa")
