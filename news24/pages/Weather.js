@@ -4,7 +4,7 @@ function weather({data}){
     return<>
         {
             // data.coord.lon
-            <WeatherMap main={data.main}/>
+            // <WeatherMap main={data.main}/>
         }
         <hr/>
     </>
