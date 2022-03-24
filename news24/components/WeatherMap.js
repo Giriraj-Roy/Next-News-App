@@ -1,13 +1,14 @@
 function WeatherMap({main}){
     return<>
         {
-            main.map(
-                ele => {
-                    return(
-                        ele
-                    )
-                }
-            )
+            main
+            // main.map(
+            //     ele => {
+            //         return(
+            //             ele
+            //         )
+            //     }
+            // )
         }
     </>
 }
