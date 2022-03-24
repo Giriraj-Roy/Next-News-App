@@ -21,7 +21,8 @@ function CommentsPage(){
             }
         })
         const data =  await response.json
-        console.log(data);
+        // console.log(data);
+        fetchComments();
     }
 
     return(
