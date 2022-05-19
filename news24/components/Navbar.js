@@ -19,7 +19,7 @@ function Navbar(){
             </Link>
         </div>
         <hr/>
-        <Weather/>
+        {/* <Weather/> */}
     </>
 }
 
