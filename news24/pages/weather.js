@@ -11,7 +11,6 @@ function weather({data}){
             // data.weather.map((ele) => {
             //     return (<div key={ele.id}>{ele.description}</div>)
             // })
-            
                     <div>
                         <ul>
                             <li><h2>Temperature : {ele.temp}</h2></li>
