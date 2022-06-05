@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Navbar from "./Navbar"
 
 function NewsList({articles}){
@@ -18,6 +19,7 @@ function NewsList({articles}){
                 }
             )
         }
+        <Footer/>
     </>
 }
 export default NewsList
